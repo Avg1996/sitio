@@ -1,0 +1,72 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
+<html>
+<style>input[type=text],input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #191432;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5D5D61;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+ margin: auto;
+}
+</style>
+<body>
+
+<center><h3>Formulario para encriptación de datos</h3></center>
+<div>
+
+  <form action="insertar.php.html" method="get" >
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre" required>
+
+    <label for="apaterno">Apellido Paterno</label>
+    <input type="text" id="apaterno" name="apaterno" placeholder="Ingrese apellido paterno" required>
+
+    <label for="apaterno">Apellido Materno</label>
+    <input type="text" id="amaterno" name="amaterno" placeholder="Ingrese apellido materno" required>
+
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" placeholder="Ingrese edad">
+    
+    <label for="genero">Género</label>
+    <select id="genero" name="genero">
+                        <option value="Seleccionar">Selecciona Genero</option>
+
+                        <option value="Masculino">Másculino</option>
+
+                        <option value="Femenino">Femenino</option>
+                        <!--Consulta mysql de la tabla estados de origen-->
+                        </select>
+  
+    <input type="submit" value="Insertar datos">
+  </form>
+</div>
+
+
+</body>
+</html>
