@@ -1,0 +1,127 @@
+
+
+    /* xxl devices */
+    @media (min-width: 1400px) and (max-width: 1700px) {}
+
+    /* xl devices */
+    @media (min-width: 1200px) and (max-width: 1399px){}
+
+
+    /* lg devices */
+    @media (min-width: 992px) and (max-width: 1199px){
+
+        .bwdbp_blogPost_1 .bwdbp_blog_bottom_part {
+            padding: 30px 20px 45px;
+        }
+        .bwdbp_blogPost_4 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_10 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_8 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_11 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_12 .bwdbp_blog_box,
+        .bwdbp_blogPost_14 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_19 .bwdbp_blog_bottom_part {
+            padding: 25px 20px;
+        }
+        .bwdbp_blogPost_9 .bwdbp_blog_bottom_part {
+            padding: 30px 20px;
+        }
+        .bwdbp_blogPost_17 .bwdbp_blog_bottom_part {
+            padding: 75px 20px 30px;
+        }
+        .bwdbp_blogPost_19 .bwdbp_author_info {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .bwdbp_blogPost_19 .bwdbp_author-img {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    /* md devices */
+    @media (min-width: 768px) and (max-width: 991px){
+
+
+    }
+
+    /* xs devices */
+    @media (max-width: 767px){
+
+        .PLR_5{
+            padding: 0 5px;
+        }
+        .bwdbp_blogPost_1 .bwdbp_blog_bottom_part {
+            padding: 30px 20px 45px;
+        }
+        .bwdbp_blogPost_12 .bwdbp_blog_box,
+        .bwdbp_blogPost_15 .bwdbp_blog_box,
+        .bwdbp_blogPost_16 .bwdbp_blog_box,
+        .bwdbp_blogPost_4 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_7 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_8 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_9 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_10 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_11 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_14 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_19 .bwdbp_blog_bottom_part,
+        .bwdbp_blogPost_list_24 .bwdbp_blog_bottom_part {
+            padding: 25px 15px;
+        }
+        .bwdbp_blogPost_13 .bwdbp_blog_bottom_part {
+            padding: 65px 15px 30px;
+        }
+        .bwdbp_blogPost_17 .bwdbp_blog_bottom_part {
+            padding: 75px 15px 25px;
+        }
+        .bwdbp_blogPost_18 .bwdbp_blog_bottom_part {
+            padding: 25px 15px 40px;
+        }
+        .bwdbp_blogPost_19 .bwdbp_author_info {
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .bwdbp_blogPost_19 .bwdbp_author-img {
+            margin-bottom: 10px;
+        }
+        .bwdbp_blogPost_3 .bwdbp_blog_box .bwdbp_overlay_content{
+            display: none;
+        }
+
+        /* list-style--------------- */
+
+        .bwdbp_blogPost_1.bwdbp_blogPost_list_20 .bwdbp_blog_box,
+        .bwdbp_blogPost_1.bwdbp_blogPost_list_21 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_22 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_23 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_24 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_25 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_26 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_27 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_28 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_29 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_30 .bwdbp_blog_box,
+        .bwdbp_blogPost_list_31 .bwdbp_blog_box {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .bwdbp_blogPost_list_22 .bwdbp_blog_bottom_part {
+            padding: 25px 15px;
+        }
+        .bwdbp_blogPost_list_31 .bwdbp_blog_bottom_part {
+            padding: 25px 15px;
+        }
+
+
+    
+
+        .bwdbp_blogPost_list_20 .bwdbp_blog_image, .bwdbp_blogPost_list_21 .bwdbp_blog_image, .bwdbp_blogPost_list_22 .bwdbp_blog_image, .bwdbp_blogPost_list_23 .bwdbp_blog_image, .bwdbp_blogPost_list_24 .bwdbp_blog_image, .bwdbp_blogPost_list_25 .bwdbp_blog_image, .bwdbp_blogPost_list_26 .bwdbp_blog_image, .bwdbp_blogPost_list_27 .bwdbp_blog_image, .bwdbp_blogPost_list_28 .bwdbp_blog_image, .bwdbp_blogPost_list_29 .bwdbp_blog_image, .bwdbp_blogPost_list_30 .bwdbp_blog_image, .bwdbp_blogPost_list_31 .bwdbp_blog_image {
+            height: 250px;
+        }
+    }
+
+    /* sm devices */
+    @media only screen and (min-width: 576px) and (max-width: 767px){}
+
+
+    @media only screen and (min-width: 2000px) and (max-width: 5000px){}
+
